@@ -1,0 +1,70 @@
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Lighting: 不入库的游戏与运行资产 ###
+# Minecraft 本体与运行环境(版权约束/体积)
+/lib/
+/game/
+# 第三方参考仓库与源码快照
+/reference/
+/Minecraft-Forbric-mod-loader-main/
+# 生态 API 制品(jar 不入库,克隆后重新放置;结构经 build-demo.ps1 缺件时提示)
+/libs/neoforge/*.jar
+# IDEA 工作区状态(含本机路径)
+.idea/workspace.xml
+# 根目录临时检查脚本
+/inspect*.ps1
+
+### Lighting: run 运行时产物(保留 bridge-demo 源码与资源) ###
+/run/libraries/
+/run/mods/
+/run/.lighting/
+/run/transformed/
+/run/jarinspect/
+/run/generated/
+/run/bridge-demo/build/
+/run/bridge-demo/transformed/
+/run/bridge-demo/config/
+/run/bridge-demo/*.log
+/run/bridge-demo/version-manifest.json
+/run/bridge-demo/update-demo.json

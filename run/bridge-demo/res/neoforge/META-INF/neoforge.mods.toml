@@ -1,0 +1,15 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="demo_bridge_neoforge"
+version="1.0.0"
+displayName="Demo Bridge NeoForge Mod"
+
+[[dependencies.demo_bridge_neoforge]]
+modId="neoforge"
+mandatory=true
+versionRange="[26.1,)"
+ordering="NONE"
+side="BOTH"

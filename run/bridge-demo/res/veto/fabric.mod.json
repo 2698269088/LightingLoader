@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "demo_veto",
+  "version": "1.0.0",
+  "name": "Demo Veto Mod",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["top.demo.veto.VetoDemoMod"]
+  }
+}

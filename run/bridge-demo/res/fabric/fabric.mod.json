@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "demo_bridge_fabric",
+  "version": "1.0.0",
+  "name": "Demo Bridge Fabric Mod",
+  "license": "MIT",
+  "environment": "*",
+  "mixins": ["demo.mixins.json"],
+  "depends": {
+    "demo_bridge_forge": ">=1.0"
+  },
+  "entrypoints": {
+    "main": ["top.demo.fabric.FabricDemoMod", "top.demo.capabilities.CapabilitiesDemoMod"]
+  }
+}
